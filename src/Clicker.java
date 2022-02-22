@@ -7,7 +7,7 @@ public class Clicker {
 
     static int maskLeftClick = InputEvent.BUTTON1_DOWN_MASK;
     static int maskRightClick = InputEvent.BUTTON3_DOWN_MASK;
-    public static Color purple = new Color(232, 255, 224);
+    public static Color purple = new Color(32, 32, 57);
 
     public static void main(String[] args) {
         Robot r = null;
@@ -21,7 +21,7 @@ public class Clicker {
         r.delay(2000);
         Color color = null;
         while (color != purple) {
-            color = r.getPixelColor(100, 100);
+            color = r.getPixelColor(838, 641);
             for (int i = 0; i < 49; i++) {
                 r.mouseMove(653, 929);
                 r.mousePress(maskLeftClick);

@@ -5,6 +5,6 @@ public class FindPosition {
         Robot bot = new Robot();
         bot.delay(2000);
         System.out.println(MouseInfo.getPointerInfo().getLocation());
-       System.out.println(bot.getPixelColor(817,690));
+        System.out.println(bot.getPixelColor(688,720));
     }
 }
